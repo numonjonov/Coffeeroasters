@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #FEFCF7;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+
+header {
+    padding: 43.5px 0;
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 33px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+
+.nav-link {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+
+
+.intro-content h2 {
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.intro-content p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    width: 430px;
+    margin: 32px 0 71px;
+}
+
+.main-link {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEFCF7;
+    padding: 15px 31px 16px;
+    background: #0E8784;
+    border-radius: 6px;
+}
+
+.intro-content {
+    padding: 117px 85px 116px;
+    background: #A2A2A2;
+    border-radius: 10px;
+}
+
+.intro-text {
+    width: 493px;
+}
+
+
+.collection-h2 {
+    position: absolute;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 72px;
+    color: #83888F;
+    bottom: 25px;
+    z-index: -10;
+}
+
+
+.collection-content {
+    padding: 136px 0 200px;
+}
+
+
+.collection-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 1111px;
+    height: 196px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+}
+
+
+.collection-cards {
+    width: 1111px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -55px;
+}
+
+
+.collection-item {
+    width: 19.92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.collection-item-h3 {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    margin: 71px 0 24px;
+}
+
+.collection-item-p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+
+
+.collection-item-img {
+    width: 100%;
+}
+
+.why-content {
+    background: #2C343E;
+    border-radius: 10px;
+    padding-top: 100px;
+    height: 577px;
+}
+
+
+.why-h2 {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+
+.why-p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    width: 535px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+
+
+.why-cards {
+    width: 1110px;
+    margin: 86px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.why-item {
+    width: 31.53%;
+    background: #0E8784;
+    border-radius: 8px;
+    padding: 72px 48px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.why-item-h3 {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;
+    margin: 56px 0 24px;
+}
+
+
+.why-item-p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    text-align: center;
+}
+
+
+.how{
+    margin-top: 351px;
+}
+
+.how-h2{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+
+}
+
+.how-border{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+.circle {
+    width: 31px;
+    height: 31px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
+
+.border{
+    height: 2px;
+    width: 349px;
+    background: #FDD6BA;
+}
+
+.how-content{
+    width: 1045px;
+    margin: 0 auto;
+}
+
+
+
+.how-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 67px 0 79px;
+}
+
+.how-item{
+    width: 28.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.how-item-h3{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.how-item-h4{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    width: 255px;
+    margin: 38px 0 42px;
+}
+
+.how-item-p{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+footer{
+    margin-top: 216px;
+    margin-bottom: 88px;
+}
+
+.footer-content{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: #2C343E;
+    display: flex;
+    align-items: center;
+    padding: 47px 85px;
+}
+
+
+.footer-link{
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    color: #83888F;
+    text-transform: uppercase;
+}
+
+.footer-list li{
+    margin-right: 33px;
+}
+
+
+
+.footer-list li:last-child{
+    margin-right: 0;
+}
+
+
+
+.footer-list{
+    display: flex;
+    margin: 0 329px 0 102px;
+}
+
+.social-link{
+    margin-right: 24px;
+}
+
+.social-link:last-child{
+    margin-right: 0;
+}
+
+
+
+

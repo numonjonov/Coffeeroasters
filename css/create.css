@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #FEFCF7;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+header {
+    padding: 43.5px 0;
+}
+
+.header-link {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    color: #83888F;
+}
+
+.nav-item {
+    margin-right: 33px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-content {
+    padding: 134px 85px;
+    background: url('../images/create-intro-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.intro-h1 {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.intro-p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    width: 445px;
+    margin-top: 32px;
+}
+
+.how {
+    margin-top: 177px;
+}
+
+.how-content {
+    padding: 91px 85px 107px;
+    background: #2C343E;
+    border-radius: 10px;
+}
+
+
+.how-border {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 67px;
+}
+
+
+.circle {
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
+
+.border {
+    height: 2px;
+    width: 349px;
+    background: #FDD6BA;
+}
+
+
+.how-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-item {
+    width: 28.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.how-h3 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.how-h4 {
+    margin: 38px 0 42px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FEFCF7;
+    width: 255px;
+}
+
+
+.how-p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+
+
+.drink-left-list {
+    width: 255px;
+}
+
+.drink-left-item {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(131, 136, 143, 0.25);
+}
+
+
+.drink-left-item:hover .drink-left-link-span1,
+.drink-left-item:hover .drink-left-link-span2 {
+    opacity: 1;
+}
+
+
+.drink-left-link-span1 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-right: 28px;
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+
+.drink-left-link-span2 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.drink-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drink-righ {
+    width: 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.drink-list {
+    width: 730px;
+}
+
+
+.drink-item {
+    margin-bottom: 88px;
+}
+
+
+
+.drink-right-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.drink-right-item {
+    padding: 32px 28px 84px;
+    width: 31.23%;
+    background: #F4F1EB;
+    border-radius: 8px;
+    transition: all 0.4s;
+}
+
+.drink-right-item:hover {
+    background: #0E8784;
+}
+
+.drink-right-item:hover .drink-right-h4,
+.drink-right-item:hover .drink-right-p {
+    color: #FEFCF7;
+}
+
+
+
+.drink-right-h3 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+    margin-bottom: 56px;
+}
+
+
+.drink-right-h4 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    margin-bottom: 24px;
+}
+
+.drink-right-p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+
+
+
+.drink-right-text {
+    padding: 27px 64px;
+    background: #2C343E;
+}
+
+
+.drink-right-text-span {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+
+
+
+.drink-right-text-p {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.drink-right-text{
+    margin-bottom: 55px;
+}
+
+.drink-text-p-span{
+    color: #0E8784;
+}
+
+
+.main-link {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEFCF7;
+    padding: 15px 31px 16px;
+    background: #0E8784;
+    border-radius: 6px;
+}
+
+
+
+
+footer{
+    margin-top: 216px;
+    margin-bottom: 88px;
+}
+
+.footer-content{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: #2C343E;
+    display: flex;
+    align-items: center;
+    padding: 47px 85px;
+}
+
+
+.footer-link{
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    color: #83888F;
+    text-transform: uppercase;
+}
+
+.footer-list li{
+    margin-right: 33px;
+}
+
+
+
+.footer-list li:last-child{
+    margin-right: 0;
+}
+
+
+
+.footer-list{
+    display: flex;
+    margin: 0 329px 0 102px;
+}
+
+.social-link{
+    margin-right: 24px;
+}
+
+.social-link:last-child{
+    margin-right: 0;
+}
+
+
+
+
